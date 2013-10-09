@@ -125,7 +125,7 @@ public class CarePassConnection {
 		// Does the api key need to be sent? some docs say yes, some no.
 		// it is redundant with the access bearer token, so I'm skipping it
 		// for now.
-		con.addRequestProperty("Apikey", "sfs9t8wmn2xz7swdpjjjbteq");
+		// con.addRequestProperty("Apikey", "api key");
 		int responseCode = con.getResponseCode();
 		if(D) Log.v(TAG, "Response received w/ code: " + responseCode);
 		InputStream is;
